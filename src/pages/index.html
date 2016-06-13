@@ -1,0 +1,105 @@
+---
+entry: index.js
+navIndex: active
+---
+
+{% extends '../layout/layout.html' %}
+
+{% block content %}
+
+    <div class="banner index-banner">
+        <div class="wrapper">
+            <div class="mask-banner"><img src="<%= require('images/index-banner.png')%>" alt=""></div>
+            <div class="download-banner">
+                <span class="button">
+                    <i class="icon icon-ios"></i>
+                    <span class="button-txt">ios版下载</span>
+                </span>
+                <span class="button">
+                    <i class="icon icon-android"></i>
+                    <span class="button-txt">Android版下载</span>
+                </span>
+            </div>
+            <div class="qrcode-banner">
+                <div class="qrcode"><img src="<%= require('images/qrcode-index.png')%>" alt=""></div>
+            </div>
+            <!-- 云 -->
+            <div class="rotate-banner cloud-banner">
+                <img src="<%= require('images/rotate.png')%>" alt="">
+            </div>
+            <!-- 地球 -->
+            <div class="rotate-banner earth-banner">
+                <img src="<%= require('images/rotate.png')%>" alt="">
+            </div>
+        </div>
+    </div>
+
+
+<div class="module-wrap module-white">
+    <div class="wrapper">
+        <div class="module-desc-wrap">
+            <dl class="module-desc m-indigo">
+                <dt>
+                <img src="<%= require('images/index-phone/index-desc-1.png')%>" alt="">
+                </dt>
+                <dd><span>●</span>包含科目一及科目四全真模拟试题</dd>
+                <dd><span>●</span>收录科目一至四的驾考技巧及学车常识</dd>
+                <dd><span>●</span>科目一四模拟考试</dd>
+                <dd><span>●</span>独家教学视频(正在开发）</dd>
+            </dl>
+        </div>
+        <div class="module-img-wrap"><img src="<%= require('images/index-phone/phone-1.png')%>" alt=""></div>
+    </div>
+</div>
+
+
+<div class="module-wrap module-gray">
+    <div class="wrapper">
+        <div class="module-desc-wrap">
+            <dl class="module-desc m-green">
+                <dt>
+                <img src="<%= require('images/index-phone/index-desc-2.png')%>" alt="">
+                </dt>
+                <dd><span>●</span>查阅所属教练及驾校</dd>
+                <dd><span>●</span>查询驾考学时</dd>
+                <dd><span>●</span>预约学时</dd>
+                <dd><span>●</span>考试预约</dd>
+                <dd><span>●</span>更换教练</dd>
+                <dd><span>●</span>驾校点评</dd>
+            </dl>
+        </div>
+        <div class="module-img-wrap"><img src="<%= require('images/index-phone/phone-2.png')%>" alt=""></div>
+    </div>
+</div>
+
+<div class="module-wrap module-white">
+    <div class="wrapper">
+        <div class="module-desc-wrap">
+            <dl class="module-desc m-orange">
+                <dt>
+                <img src="<%= require('images/index-phone/index-desc-3.png')%>" alt="">
+                </dt>
+                <dd><span>●</span>自主约教，学多少约多少，约车轻松快捷</dd>
+                <dd><span>●</span>在线支付，支持支付宝，微信支付</dd>
+                <dd><span>●</span>学车签到功能，杜绝偷漏学时违规刷学时等现象</dd>
+                <dd><span>●</span>教练评价，好不好您说了算，提高教练教学质量</dd>
+            </dl>
+        </div>
+        <div class="module-img-wrap"><img src="<%= require('images/index-phone/phone-3.png')%>" alt=""></div>
+    </div>
+</div>
+
+
+<div class="module-wrap module-gray">
+    <div class="wrapper">
+        <div class="module-desc-wrap">
+            <dl class="module-desc m-blue">
+                <dt>
+                <img src="<%= require('images/index-phone/index-desc-4.png')%>" alt="">
+                </dt>
+            </dl>
+        </div>
+        <div class="module-img-wrap"><img src="<%= require('images/index-phone/phone-4.png')%>" alt=""></div>
+    </div>
+</div>
+{% endblock %}

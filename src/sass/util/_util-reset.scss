@@ -1,0 +1,11 @@
+@import "libs/reset";
+@include global-reset;
+
+body {
+    font-family:"Microsoft YaHei",arial, sans-serif;
+    line-height: 1.2;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+
+/*生成图片icon*/
+@import "sprites/icon-sprites";
+
+/*工具泪*/
+@import "util/util";
+@import "util/util-reset";
+@import "util/util-icon";
+
+/* 公共模块 */
+@import "modules/header";
+@import "modules/footer";
+
+
+/*调用共建工具生成的雪碧图*/
+@include spriteIcon($icon-sprites, $icon-image, 'icon');
+
+.grayBackground{
+    background-color:#f9f8f8
+}
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+}

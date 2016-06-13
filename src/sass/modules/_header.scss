@@ -1,0 +1,132 @@
+@import "util/util";
+
+
+
+%header-footer{
+    background: #303030;
+    font-size: 16px;
+}
+
+.header {
+    @extend %header-footer;
+    .wrapper {
+        @extend %clearfix;
+    }
+
+    .logo{
+        float: left;
+        margin-top: 40px;
+    }
+    .nav {
+        @extend %clearfix;
+        float: right;
+        .nav-item {
+            float: left;
+            .nav-a {
+                color:#fff;
+                display: inline-block;
+                padding: 10px 15px;
+                text-align: center;
+                margin:35px 0 29px;
+                &:hover{
+                    color:$global-color;
+                }
+            }
+            a.active,.last-nav-a{
+                color:$global-color;
+            }
+
+            .last-nav-a{
+                padding:9px 0px 8px 30px;
+                letter-spacing:1px;
+                .icon{
+                    margin-right: 10px;
+                    vertical-align: bottom;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+.footer{
+    @extend %header-footer;
+    @extend %clearfix;
+    height:390px;
+    color:#fff;
+
+    .nav-foot{
+        float: left;
+        margin-top: 60px;
+        display: inline-block;
+        vertical-align: top;
+
+        a {
+            color:#fff;
+            &:hover{
+                color:$global-color;
+            }
+        }
+
+        dl{
+            font-size:0;
+        }
+        dt,dd{
+            text-align: center;
+            margin-bottom: 22px;        }
+
+        dt{
+            color:$global-color;
+            text-transform : uppercase;
+            line-height: 1.5;
+        }
+        dd{
+            font-size: 14px;
+        }
+        .shared{
+            .icon{
+                margin:0 10px;
+            }
+        }
+        .button{
+            @include btn-background($global-color, #fff);
+            padding:6px 12px;
+            font-size:26px;
+
+        }
+        .foot-phone{
+            display: inline-block;
+            padding:0 15px 0 5px;
+            letter-spacing: 2px;
+            position: relative;
+            top:4px;
+        }
+    }
+
+    .service-line{
+        float: right;
+    }
+
+    .coop-media,
+    .watch-us{
+        margin-left: 150px;
+    }
+.service-line, .watch-us{
+        dt{
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+
+.copyright{
+    background-color:#2a2a2a;
+    line-height: 80px;
+    height:80px;
+    color:#fff;
+    text-align: center;
+    text-transform : uppercase;
+}

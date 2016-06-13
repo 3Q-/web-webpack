@@ -1,0 +1,44 @@
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+
+
+@mixin spritedemo($sprite) {
+  // @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+@mixin spriteIcon($sprites, $en, $iconUrl) {
+
+  %url-#{$iconUrl}{
+   background-image:url($en);
+   display: inline-block;
+   vertical-align: middle;
+  }
+
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @extend %url-#{$iconUrl};
+      @include spritedemo($sprite);
+    }
+  }
+}

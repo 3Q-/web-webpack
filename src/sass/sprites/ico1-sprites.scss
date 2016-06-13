@@ -1,0 +1,239 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$ico1-hover-hover-ico1-hover-hover-name: 'ico1-hover:hover,.ico1-hover-hover';
+$ico1-hover-hover-ico1-hover-hover-x: 104px;
+$ico1-hover-hover-ico1-hover-hover-y: 15px;
+$ico1-hover-hover-ico1-hover-hover-offset-x: -104px;
+$ico1-hover-hover-ico1-hover-hover-offset-y: -15px;
+$ico1-hover-hover-ico1-hover-hover-width: 18px;
+$ico1-hover-hover-ico1-hover-hover-height: 15px;
+$ico1-hover-hover-ico1-hover-hover-total-width: 122px;
+$ico1-hover-hover-ico1-hover-hover-total-height: 98px;
+$ico1-hover-hover-ico1-hover-hover-image: '~sprites/ico1.png';
+$ico1-hover-hover-ico1-hover-hover: (104px, 15px, -104px, -15px, 18px, 15px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover:hover,.ico1-hover-hover', );
+$ico1-hover-hover-2x-name: 'ico1-hover-hover@2x';
+$ico1-hover-hover-2x-x: 36px;
+$ico1-hover-hover-2x-y: 68px;
+$ico1-hover-hover-2x-offset-x: -36px;
+$ico1-hover-hover-2x-offset-y: -68px;
+$ico1-hover-hover-2x-width: 36px;
+$ico1-hover-hover-2x-height: 30px;
+$ico1-hover-hover-2x-total-width: 122px;
+$ico1-hover-hover-2x-total-height: 98px;
+$ico1-hover-hover-2x-image: '~sprites/ico1.png';
+$ico1-hover-hover-2x: (36px, 68px, -36px, -68px, 36px, 30px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover-hover@2x', );
+$ico1-hover-name: 'ico1-hover';
+$ico1-hover-x: 104px;
+$ico1-hover-y: 0px;
+$ico1-hover-offset-x: -104px;
+$ico1-hover-offset-y: 0px;
+$ico1-hover-width: 18px;
+$ico1-hover-height: 15px;
+$ico1-hover-total-width: 122px;
+$ico1-hover-total-height: 98px;
+$ico1-hover-image: '~sprites/ico1.png';
+$ico1-hover: (104px, 0px, -104px, 0px, 18px, 15px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover', );
+$ico1-hover-2x-name: 'ico1-hover@2x';
+$ico1-hover-2x-x: 68px;
+$ico1-hover-2x-y: 0px;
+$ico1-hover-2x-offset-x: -68px;
+$ico1-hover-2x-offset-y: 0px;
+$ico1-hover-2x-width: 36px;
+$ico1-hover-2x-height: 30px;
+$ico1-hover-2x-total-width: 122px;
+$ico1-hover-2x-total-height: 98px;
+$ico1-hover-2x-image: '~sprites/ico1.png';
+$ico1-hover-2x: (68px, 0px, -68px, 0px, 36px, 30px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover@2x', );
+$ico1-hover-hover-name: 'ico1-hover_hover';
+$ico1-hover-hover-x: 72px;
+$ico1-hover-hover-y: 83px;
+$ico1-hover-hover-offset-x: -72px;
+$ico1-hover-hover-offset-y: -83px;
+$ico1-hover-hover-width: 18px;
+$ico1-hover-hover-height: 15px;
+$ico1-hover-hover-total-width: 122px;
+$ico1-hover-hover-total-height: 98px;
+$ico1-hover-hover-image: '~sprites/ico1.png';
+$ico1-hover-hover: (72px, 83px, -72px, -83px, 18px, 15px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover_hover', );
+$ico1-hover-hover-2x-name: 'ico1-hover_hover@2x';
+$ico1-hover-hover-2x-x: 0px;
+$ico1-hover-hover-2x-y: 68px;
+$ico1-hover-hover-2x-offset-x: 0px;
+$ico1-hover-hover-2x-offset-y: -68px;
+$ico1-hover-hover-2x-width: 36px;
+$ico1-hover-hover-2x-height: 30px;
+$ico1-hover-hover-2x-total-width: 122px;
+$ico1-hover-hover-2x-total-height: 98px;
+$ico1-hover-hover-2x-image: '~sprites/ico1.png';
+$ico1-hover-hover-2x: (0px, 68px, 0px, -68px, 36px, 30px, 122px, 98px, '~sprites/ico1.png', 'ico1-hover_hover@2x', );
+$ico1-normal-name: 'ico1-normal';
+$ico1-normal-x: 72px;
+$ico1-normal-y: 68px;
+$ico1-normal-offset-x: -72px;
+$ico1-normal-offset-y: -68px;
+$ico1-normal-width: 18px;
+$ico1-normal-height: 15px;
+$ico1-normal-total-width: 122px;
+$ico1-normal-total-height: 98px;
+$ico1-normal-image: '~sprites/ico1.png';
+$ico1-normal: (72px, 68px, -72px, -68px, 18px, 15px, 122px, 98px, '~sprites/ico1.png', 'ico1-normal', );
+$ico1-normal-2x-name: 'ico1-normal@2x';
+$ico1-normal-2x-x: 68px;
+$ico1-normal-2x-y: 30px;
+$ico1-normal-2x-offset-x: -68px;
+$ico1-normal-2x-offset-y: -30px;
+$ico1-normal-2x-width: 36px;
+$ico1-normal-2x-height: 30px;
+$ico1-normal-2x-total-width: 122px;
+$ico1-normal-2x-total-height: 98px;
+$ico1-normal-2x-image: '~sprites/ico1.png';
+$ico1-normal-2x: (68px, 30px, -68px, -30px, 36px, 30px, 122px, 98px, '~sprites/ico1.png', 'ico1-normal@2x', );
+$ico1-red-name: 'ico1-red';
+$ico1-red-x: 34px;
+$ico1-red-y: 34px;
+$ico1-red-offset-x: -34px;
+$ico1-red-offset-y: -34px;
+$ico1-red-width: 17px;
+$ico1-red-height: 17px;
+$ico1-red-total-width: 122px;
+$ico1-red-total-height: 98px;
+$ico1-red-image: '~sprites/ico1.png';
+$ico1-red: (34px, 34px, -34px, -34px, 17px, 17px, 122px, 98px, '~sprites/ico1.png', 'ico1-red', );
+$ico1-red1-name: 'ico1-red1';
+$ico1-red1-x: 51px;
+$ico1-red1-y: 34px;
+$ico1-red1-offset-x: -51px;
+$ico1-red1-offset-y: -34px;
+$ico1-red1-width: 17px;
+$ico1-red1-height: 17px;
+$ico1-red1-total-width: 122px;
+$ico1-red1-total-height: 98px;
+$ico1-red1-image: '~sprites/ico1.png';
+$ico1-red1: (51px, 34px, -51px, -34px, 17px, 17px, 122px, 98px, '~sprites/ico1.png', 'ico1-red1', );
+$ico1-red1-2x-name: 'ico1-red1@2x';
+$ico1-red1-2x-x: 0px;
+$ico1-red1-2x-y: 34px;
+$ico1-red1-2x-offset-x: 0px;
+$ico1-red1-2x-offset-y: -34px;
+$ico1-red1-2x-width: 34px;
+$ico1-red1-2x-height: 34px;
+$ico1-red1-2x-total-width: 122px;
+$ico1-red1-2x-total-height: 98px;
+$ico1-red1-2x-image: '~sprites/ico1.png';
+$ico1-red1-2x: (0px, 34px, 0px, -34px, 34px, 34px, 122px, 98px, '~sprites/ico1.png', 'ico1-red1@2x', );
+$ico1-red-2x-name: 'ico1-red@2x';
+$ico1-red-2x-x: 34px;
+$ico1-red-2x-y: 0px;
+$ico1-red-2x-offset-x: -34px;
+$ico1-red-2x-offset-y: 0px;
+$ico1-red-2x-width: 34px;
+$ico1-red-2x-height: 34px;
+$ico1-red-2x-total-width: 122px;
+$ico1-red-2x-total-height: 98px;
+$ico1-red-2x-image: '~sprites/ico1.png';
+$ico1-red-2x: (34px, 0px, -34px, 0px, 34px, 34px, 122px, 98px, '~sprites/ico1.png', 'ico1-red@2x', );
+$ico1-turquoise-name: 'ico1-turquoise';
+$ico1-turquoise-x: 34px;
+$ico1-turquoise-y: 51px;
+$ico1-turquoise-offset-x: -34px;
+$ico1-turquoise-offset-y: -51px;
+$ico1-turquoise-width: 17px;
+$ico1-turquoise-height: 17px;
+$ico1-turquoise-total-width: 122px;
+$ico1-turquoise-total-height: 98px;
+$ico1-turquoise-image: '~sprites/ico1.png';
+$ico1-turquoise: (34px, 51px, -34px, -51px, 17px, 17px, 122px, 98px, '~sprites/ico1.png', 'ico1-turquoise', );
+$ico1-turquoise-2x-name: 'ico1-turquoise@2x';
+$ico1-turquoise-2x-x: 0px;
+$ico1-turquoise-2x-y: 0px;
+$ico1-turquoise-2x-offset-x: 0px;
+$ico1-turquoise-2x-offset-y: 0px;
+$ico1-turquoise-2x-width: 34px;
+$ico1-turquoise-2x-height: 34px;
+$ico1-turquoise-2x-total-width: 122px;
+$ico1-turquoise-2x-total-height: 98px;
+$ico1-turquoise-2x-image: '~sprites/ico1.png';
+$ico1-turquoise-2x: (0px, 0px, 0px, 0px, 34px, 34px, 122px, 98px, '~sprites/ico1.png', 'ico1-turquoise@2x', );
+$ico1-width: 122px;
+$ico1-height: 98px;
+$ico1-image: '~sprites/ico1.png';
+$ico1-sprites: ($ico1-hover-hover-ico1-hover-hover, $ico1-hover-hover-2x, $ico1-hover, $ico1-hover-2x, $ico1-hover-hover, $ico1-hover-hover-2x, $ico1-normal, $ico1-normal-2x, $ico1-red, $ico1-red1, $ico1-red1-2x, $ico1-red-2x, $ico1-turquoise, $ico1-turquoise-2x, );
+$ico1: (122px, 98px, '~sprites/ico1.png', $ico1-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

@@ -1,0 +1,65 @@
+---
+entry: index.js
+navComplaint: active
+---
+{% extends '../layout/layout.html' %}
+{% block content %}
+    <div class="banner complaint-banner">
+        <div class="wrapper">
+            <div class="complaint-mask">
+                我们有什么可以帮助您 ?
+                What can we help you?
+            </div>
+            <div class="coach-mask">
+                <img src="<%= require('images/banner/complaint-banner.png')%>" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="complaint-guid">
+            <p class="guid-tips">如果您学车遇到一下问题, 可以与我们取得联系</p>
+            <ul>
+                <li> <i class="icon icon-guid-1"></i>
+                    <p>违规获取好处,要吃要喝等违规现象</p>
+                 </li>
+                <li> <i class="icon icon-guid-2"></i>
+                    <p>驾校乱收费等违规现象</p>
+                 </li>
+                <li> <i class="icon icon-guid-3"></i>
+                    <p>报名咨询,学车疑惑</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="form-wrap">
+            <div class="input-wrap">
+                <label for="">姓名</label>
+                <input type="text" class="input-txt input-name">
+            </div>
+            <div class="input-wrap">
+                <label for="">身份证</label>
+                <input type="text" class="input-txt input-name">
+            </div>
+            <div class="input-wrap">
+                <label for="">手机号</label>
+                <input type="text" class="input-txt input-name">
+            </div>
+            <div class="select-wrap">
+                <label for="" class="icon icon-user icon-user-hover"><input type="radio" name="" id=""></label>
+                <label for="" class="icon icon-car"><input type="radio" name="" id=""></label>
+            </div>
+            <div class="input-wrap">
+                <label for="">违规的(驾校/教练)全称</label>
+                <input type="text" class="input-txt input-name">
+            </div>
+            <div class="textarea-wrap">
+                <label for="">投诉内容</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

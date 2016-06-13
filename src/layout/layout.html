@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="viewport" content="width=device-width">
+        <title><%= htmlWebpackPlugin.options.title || '谢启勇' %></title>
+        <% if (htmlWebpackPlugin.files.favicon) { %>
+        <link rel="shortcut icon" href="<%= htmlWebpackPlugin.files.favicon%>">
+        <% } %>
+        <% if (htmlWebpackPlugin.options.mobile) { %>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <% } %>
+        <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+        <% } %>
+    </head>
+</head>
+<body class="<%= htmlWebpackPlugin.options.grayBackground %>" >
+    {% include 'header.html' %}
+    {% block content %}{% endblock %}
+    {% include 'footer.html' %}
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+    <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+    <% } %>
+    <% if (htmlWebpackPlugin.options.devServer) { %>
+    <script src="<%= htmlWebpackPlugin.options.devServer%>/webpack-dev-server.js"></script>
+    <% } %>
+</body>
+</html>

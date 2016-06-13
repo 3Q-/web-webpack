@@ -1,0 +1,82 @@
+
+@import "util/util";
+
+$app-module-color: #38cdc4, #36cd6b,#fbb03b,#3296eb,#0ec6ee;
+
+.module-wrap{
+    .wrapper{
+        height:723px;
+        @extend %clearfix;
+        position: relative;
+    }
+
+    .m-indigo span{
+        color:nth($app-module-color,1)
+    }
+    .m-green span{
+        color:nth($app-module-color,2)
+    }
+    .m-orange span{
+        color:nth($app-module-color,3)
+    }
+    .m-blue span{
+        color:nth($app-module-color,4)
+    }
+    .m-blue-1 span{
+        color:nth($app-module-color,5)
+    }
+
+    dt{
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+    dd{
+        color:#727272;
+        margin-top:12px;
+        span{
+            margin-right: 10px;
+        }
+    }
+
+    .module-desc-wrap{
+        display: table;
+        .module-desc{
+            display: table-cell;
+            vertical-align: middle;
+            margin-top: -30px;
+        }
+    }
+    .module-img-wrap{
+        height:635px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+}
+
+.module-white{
+    .module-desc-wrap{
+        float: left;
+        height: 100%;
+    }
+
+    .module-img-wrap{
+        right:0;
+        bottom: 0;
+    }
+}
+
+.module-gray{
+    background:#f8f8f8;
+    .module-desc-wrap{
+        float: right;
+        height: 100%;
+        width:438px;
+    }
+
+    .module-img-wrap{
+        left:0;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,492 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-android-name: 'icon-android';
+$icon-android-x: 126px;
+$icon-android-y: 376px;
+$icon-android-offset-x: -126px;
+$icon-android-offset-y: -376px;
+$icon-android-width: 25px;
+$icon-android-height: 28px;
+$icon-android-total-width: 453px;
+$icon-android-total-height: 439px;
+$icon-android-image: '~sprites/icon.png';
+$icon-android: (126px, 376px, -126px, -376px, 25px, 28px, 453px, 439px, '~sprites/icon.png', 'icon-android', );
+$icon-arrow-left-name: 'icon-arrow-left';
+$icon-arrow-left-x: 266px;
+$icon-arrow-left-y: 204px;
+$icon-arrow-left-offset-x: -266px;
+$icon-arrow-left-offset-y: -204px;
+$icon-arrow-left-width: 38px;
+$icon-arrow-left-height: 38px;
+$icon-arrow-left-total-width: 453px;
+$icon-arrow-left-total-height: 439px;
+$icon-arrow-left-image: '~sprites/icon.png';
+$icon-arrow-left: (266px, 204px, -266px, -204px, 38px, 38px, 453px, 439px, '~sprites/icon.png', 'icon-arrow-left', );
+$icon-arrow-right-name: 'icon-arrow-right';
+$icon-arrow-right-x: 266px;
+$icon-arrow-right-y: 242px;
+$icon-arrow-right-offset-x: -266px;
+$icon-arrow-right-offset-y: -242px;
+$icon-arrow-right-width: 38px;
+$icon-arrow-right-height: 38px;
+$icon-arrow-right-total-width: 453px;
+$icon-arrow-right-total-height: 439px;
+$icon-arrow-right-image: '~sprites/icon.png';
+$icon-arrow-right: (266px, 242px, -266px, -242px, 38px, 38px, 453px, 439px, '~sprites/icon.png', 'icon-arrow-right', );
+$icon-car-hover-icon-car-hover-name: 'icon-car:hover,.icon-car-hover';
+$icon-car-hover-icon-car-hover-x: 103px;
+$icon-car-hover-icon-car-hover-y: 102px;
+$icon-car-hover-icon-car-hover-offset-x: -103px;
+$icon-car-hover-icon-car-hover-offset-y: -102px;
+$icon-car-hover-icon-car-hover-width: 103px;
+$icon-car-hover-icon-car-hover-height: 102px;
+$icon-car-hover-icon-car-hover-total-width: 453px;
+$icon-car-hover-icon-car-hover-total-height: 439px;
+$icon-car-hover-icon-car-hover-image: '~sprites/icon.png';
+$icon-car-hover-icon-car-hover: (103px, 102px, -103px, -102px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-car:hover,.icon-car-hover', );
+$icon-car-name: 'icon-car';
+$icon-car-x: 206px;
+$icon-car-y: 0px;
+$icon-car-offset-x: -206px;
+$icon-car-offset-y: 0px;
+$icon-car-width: 103px;
+$icon-car-height: 102px;
+$icon-car-total-width: 453px;
+$icon-car-total-height: 439px;
+$icon-car-image: '~sprites/icon.png';
+$icon-car: (206px, 0px, -206px, 0px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-car', );
+$icon-complain-name: 'icon-complain';
+$icon-complain-x: 309px;
+$icon-complain-y: 228px;
+$icon-complain-offset-x: -309px;
+$icon-complain-offset-y: -228px;
+$icon-complain-width: 72px;
+$icon-complain-height: 71px;
+$icon-complain-total-width: 453px;
+$icon-complain-total-height: 439px;
+$icon-complain-image: '~sprites/icon.png';
+$icon-complain: (309px, 228px, -309px, -228px, 72px, 71px, 453px, 439px, '~sprites/icon.png', 'icon-complain', );
+$icon-contact-message-name: 'icon-contact-message';
+$icon-contact-message-x: 103px;
+$icon-contact-message-y: 285px;
+$icon-contact-message-offset-x: -103px;
+$icon-contact-message-offset-y: -285px;
+$icon-contact-message-width: 26px;
+$icon-contact-message-height: 19px;
+$icon-contact-message-total-width: 453px;
+$icon-contact-message-total-height: 439px;
+$icon-contact-message-image: '~sprites/icon.png';
+$icon-contact-message: (103px, 285px, -103px, -285px, 26px, 19px, 453px, 439px, '~sprites/icon.png', 'icon-contact-message', );
+$icon-contact-phone-name: 'icon-contact-phone';
+$icon-contact-phone-x: 151px;
+$icon-contact-phone-y: 376px;
+$icon-contact-phone-offset-x: -151px;
+$icon-contact-phone-offset-y: -376px;
+$icon-contact-phone-width: 26px;
+$icon-contact-phone-height: 26px;
+$icon-contact-phone-total-width: 453px;
+$icon-contact-phone-total-height: 439px;
+$icon-contact-phone-image: '~sprites/icon.png';
+$icon-contact-phone: (151px, 376px, -151px, -376px, 26px, 26px, 453px, 439px, '~sprites/icon.png', 'icon-contact-phone', );
+$icon-contact-positioning-name: 'icon-contact-positioning';
+$icon-contact-positioning-x: 345px;
+$icon-contact-positioning-y: 335px;
+$icon-contact-positioning-offset-x: -345px;
+$icon-contact-positioning-offset-y: -335px;
+$icon-contact-positioning-width: 22px;
+$icon-contact-positioning-height: 32px;
+$icon-contact-positioning-total-width: 453px;
+$icon-contact-positioning-total-height: 439px;
+$icon-contact-positioning-image: '~sprites/icon.png';
+$icon-contact-positioning: (345px, 335px, -345px, -335px, 22px, 32px, 453px, 439px, '~sprites/icon.png', 'icon-contact-positioning', );
+$icon-contact-qq-name: 'icon-contact-qq';
+$icon-contact-qq-x: 151px;
+$icon-contact-qq-y: 404px;
+$icon-contact-qq-offset-x: -151px;
+$icon-contact-qq-offset-y: -404px;
+$icon-contact-qq-width: 23px;
+$icon-contact-qq-height: 24px;
+$icon-contact-qq-total-width: 453px;
+$icon-contact-qq-total-height: 439px;
+$icon-contact-qq-image: '~sprites/icon.png';
+$icon-contact-qq: (151px, 404px, -151px, -404px, 23px, 24px, 453px, 439px, '~sprites/icon.png', 'icon-contact-qq', );
+$icon-contact-weibo-name: 'icon-contact-weibo';
+$icon-contact-weibo-x: 177px;
+$icon-contact-weibo-y: 376px;
+$icon-contact-weibo-offset-x: -177px;
+$icon-contact-weibo-offset-y: -376px;
+$icon-contact-weibo-width: 29px;
+$icon-contact-weibo-height: 23px;
+$icon-contact-weibo-total-width: 453px;
+$icon-contact-weibo-total-height: 439px;
+$icon-contact-weibo-image: '~sprites/icon.png';
+$icon-contact-weibo: (177px, 376px, -177px, -376px, 29px, 23px, 453px, 439px, '~sprites/icon.png', 'icon-contact-weibo', );
+$icon-date-name: 'icon-date';
+$icon-date-x: 386px;
+$icon-date-y: 0px;
+$icon-date-offset-x: -386px;
+$icon-date-offset-y: 0px;
+$icon-date-width: 67px;
+$icon-date-height: 65px;
+$icon-date-total-width: 453px;
+$icon-date-total-height: 439px;
+$icon-date-image: '~sprites/icon.png';
+$icon-date: (386px, 0px, -386px, 0px, 67px, 65px, 453px, 439px, '~sprites/icon.png', 'icon-date', );
+$icon-driver-school-name: 'icon-driver-school';
+$icon-driver-school-x: 185px;
+$icon-driver-school-y: 204px;
+$icon-driver-school-offset-x: -185px;
+$icon-driver-school-offset-y: -204px;
+$icon-driver-school-width: 81px;
+$icon-driver-school-height: 81px;
+$icon-driver-school-total-width: 453px;
+$icon-driver-school-total-height: 439px;
+$icon-driver-school-image: '~sprites/icon.png';
+$icon-driver-school: (185px, 204px, -185px, -204px, 81px, 81px, 453px, 439px, '~sprites/icon.png', 'icon-driver-school', );
+$icon-guid-1-name: 'icon-guid-1';
+$icon-guid-1-x: 103px;
+$icon-guid-1-y: 0px;
+$icon-guid-1-offset-x: -103px;
+$icon-guid-1-offset-y: 0px;
+$icon-guid-1-width: 103px;
+$icon-guid-1-height: 102px;
+$icon-guid-1-total-width: 453px;
+$icon-guid-1-total-height: 439px;
+$icon-guid-1-image: '~sprites/icon.png';
+$icon-guid-1: (103px, 0px, -103px, 0px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-guid-1', );
+$icon-guid-2-name: 'icon-guid-2';
+$icon-guid-2-x: 0px;
+$icon-guid-2-y: 102px;
+$icon-guid-2-offset-x: 0px;
+$icon-guid-2-offset-y: -102px;
+$icon-guid-2-width: 103px;
+$icon-guid-2-height: 102px;
+$icon-guid-2-total-width: 453px;
+$icon-guid-2-total-height: 439px;
+$icon-guid-2-image: '~sprites/icon.png';
+$icon-guid-2: (0px, 102px, 0px, -102px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-guid-2', );
+$icon-guid-3-name: 'icon-guid-3';
+$icon-guid-3-x: 0px;
+$icon-guid-3-y: 204px;
+$icon-guid-3-offset-x: 0px;
+$icon-guid-3-offset-y: -204px;
+$icon-guid-3-width: 103px;
+$icon-guid-3-height: 102px;
+$icon-guid-3-total-width: 453px;
+$icon-guid-3-total-height: 439px;
+$icon-guid-3-image: '~sprites/icon.png';
+$icon-guid-3: (0px, 204px, 0px, -204px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-guid-3', );
+$icon-ios-name: 'icon-ios';
+$icon-ios-x: 345px;
+$icon-ios-y: 306px;
+$icon-ios-offset-x: -345px;
+$icon-ios-offset-y: -306px;
+$icon-ios-width: 25px;
+$icon-ios-height: 29px;
+$icon-ios-total-width: 453px;
+$icon-ios-total-height: 439px;
+$icon-ios-image: '~sprites/icon.png';
+$icon-ios: (345px, 306px, -345px, -306px, 25px, 29px, 453px, 439px, '~sprites/icon.png', 'icon-ios', );
+$icon-memo-name: 'icon-memo';
+$icon-memo-x: 309px;
+$icon-memo-y: 0px;
+$icon-memo-offset-x: -309px;
+$icon-memo-offset-y: 0px;
+$icon-memo-width: 77px;
+$icon-memo-height: 77px;
+$icon-memo-total-width: 453px;
+$icon-memo-total-height: 439px;
+$icon-memo-image: '~sprites/icon.png';
+$icon-memo: (309px, 0px, -309px, 0px, 77px, 77px, 453px, 439px, '~sprites/icon.png', 'icon-memo', );
+$icon-message-name: 'icon-message';
+$icon-message-x: 0px;
+$icon-message-y: 306px;
+$icon-message-offset-x: 0px;
+$icon-message-offset-y: -306px;
+$icon-message-width: 71px;
+$icon-message-height: 70px;
+$icon-message-total-width: 453px;
+$icon-message-total-height: 439px;
+$icon-message-image: '~sprites/icon.png';
+$icon-message: (0px, 306px, 0px, -306px, 71px, 70px, 453px, 439px, '~sprites/icon.png', 'icon-message', );
+$icon-mock-name: 'icon-mock';
+$icon-mock-x: 103px;
+$icon-mock-y: 204px;
+$icon-mock-offset-x: -103px;
+$icon-mock-offset-y: -204px;
+$icon-mock-width: 82px;
+$icon-mock-height: 81px;
+$icon-mock-total-width: 453px;
+$icon-mock-total-height: 439px;
+$icon-mock-image: '~sprites/icon.png';
+$icon-mock: (103px, 204px, -103px, -204px, 82px, 81px, 453px, 439px, '~sprites/icon.png', 'icon-mock', );
+$icon-notic-name: 'icon-notic';
+$icon-notic-x: 309px;
+$icon-notic-y: 77px;
+$icon-notic-offset-x: -309px;
+$icon-notic-offset-y: -77px;
+$icon-notic-width: 77px;
+$icon-notic-height: 76px;
+$icon-notic-total-width: 453px;
+$icon-notic-total-height: 439px;
+$icon-notic-image: '~sprites/icon.png';
+$icon-notic: (309px, 77px, -309px, -77px, 77px, 76px, 453px, 439px, '~sprites/icon.png', 'icon-notic', );
+$icon-order-name: 'icon-order';
+$icon-order-x: 309px;
+$icon-order-y: 153px;
+$icon-order-offset-x: -309px;
+$icon-order-offset-y: -153px;
+$icon-order-width: 76px;
+$icon-order-height: 75px;
+$icon-order-total-width: 453px;
+$icon-order-total-height: 439px;
+$icon-order-image: '~sprites/icon.png';
+$icon-order: (309px, 153px, -309px, -153px, 76px, 75px, 453px, 439px, '~sprites/icon.png', 'icon-order', );
+$icon-phone-green-s-name: 'icon-phone-green-s';
+$icon-phone-green-s-x: 126px;
+$icon-phone-green-s-y: 404px;
+$icon-phone-green-s-offset-x: -126px;
+$icon-phone-green-s-offset-y: -404px;
+$icon-phone-green-s-width: 25px;
+$icon-phone-green-s-height: 24px;
+$icon-phone-green-s-total-width: 453px;
+$icon-phone-green-s-total-height: 439px;
+$icon-phone-green-s-image: '~sprites/icon.png';
+$icon-phone-green-s: (126px, 404px, -126px, -404px, 25px, 24px, 453px, 439px, '~sprites/icon.png', 'icon-phone-green-s', );
+$icon-phone-name: 'icon-phone';
+$icon-phone-x: 386px;
+$icon-phone-y: 323px;
+$icon-phone-offset-x: -386px;
+$icon-phone-offset-y: -323px;
+$icon-phone-width: 48px;
+$icon-phone-height: 48px;
+$icon-phone-total-width: 453px;
+$icon-phone-total-height: 439px;
+$icon-phone-image: '~sprites/icon.png';
+$icon-phone: (386px, 323px, -386px, -323px, 48px, 48px, 453px, 439px, '~sprites/icon.png', 'icon-phone', );
+$icon-qq-hover-icon-qq-hover-name: 'icon-qq:hover,.icon-qq-hover';
+$icon-qq-hover-icon-qq-hover-x: 386px;
+$icon-qq-hover-icon-qq-hover-y: 130px;
+$icon-qq-hover-icon-qq-hover-offset-x: -386px;
+$icon-qq-hover-icon-qq-hover-offset-y: -130px;
+$icon-qq-hover-icon-qq-hover-width: 66px;
+$icon-qq-hover-icon-qq-hover-height: 65px;
+$icon-qq-hover-icon-qq-hover-total-width: 453px;
+$icon-qq-hover-icon-qq-hover-total-height: 439px;
+$icon-qq-hover-icon-qq-hover-image: '~sprites/icon.png';
+$icon-qq-hover-icon-qq-hover: (386px, 130px, -386px, -130px, 66px, 65px, 453px, 439px, '~sprites/icon.png', 'icon-qq:hover,.icon-qq-hover', );
+$icon-qq-name: 'icon-qq';
+$icon-qq-x: 386px;
+$icon-qq-y: 65px;
+$icon-qq-offset-x: -386px;
+$icon-qq-offset-y: -65px;
+$icon-qq-width: 66px;
+$icon-qq-height: 65px;
+$icon-qq-total-width: 453px;
+$icon-qq-total-height: 439px;
+$icon-qq-image: '~sprites/icon.png';
+$icon-qq: (386px, 65px, -386px, -65px, 66px, 65px, 453px, 439px, '~sprites/icon.png', 'icon-qq', );
+$icon-reservation-name: 'icon-reservation';
+$icon-reservation-x: 277px;
+$icon-reservation-y: 306px;
+$icon-reservation-offset-x: -277px;
+$icon-reservation-offset-y: -306px;
+$icon-reservation-width: 68px;
+$icon-reservation-height: 68px;
+$icon-reservation-total-width: 453px;
+$icon-reservation-total-height: 439px;
+$icon-reservation-image: '~sprites/icon.png';
+$icon-reservation: (277px, 306px, -277px, -306px, 68px, 68px, 453px, 439px, '~sprites/icon.png', 'icon-reservation', );
+$icon-student-name: 'icon-student';
+$icon-student-x: 71px;
+$icon-student-y: 306px;
+$icon-student-offset-x: -71px;
+$icon-student-offset-y: -306px;
+$icon-student-width: 70px;
+$icon-student-height: 69px;
+$icon-student-total-width: 453px;
+$icon-student-total-height: 439px;
+$icon-student-image: '~sprites/icon.png';
+$icon-student: (71px, 306px, -71px, -306px, 70px, 69px, 453px, 439px, '~sprites/icon.png', 'icon-student', );
+$icon-top-hover-icon-top-hover-name: 'icon-top:hover,.icon-top-hover';
+$icon-top-hover-icon-top-hover-x: 141px;
+$icon-top-hover-icon-top-hover-y: 306px;
+$icon-top-hover-icon-top-hover-offset-x: -141px;
+$icon-top-hover-icon-top-hover-offset-y: -306px;
+$icon-top-hover-icon-top-hover-width: 68px;
+$icon-top-hover-icon-top-hover-height: 68px;
+$icon-top-hover-icon-top-hover-total-width: 453px;
+$icon-top-hover-icon-top-hover-total-height: 439px;
+$icon-top-hover-icon-top-hover-image: '~sprites/icon.png';
+$icon-top-hover-icon-top-hover: (141px, 306px, -141px, -306px, 68px, 68px, 453px, 439px, '~sprites/icon.png', 'icon-top:hover,.icon-top-hover', );
+$icon-top-name: 'icon-top';
+$icon-top-x: 209px;
+$icon-top-y: 306px;
+$icon-top-offset-x: -209px;
+$icon-top-offset-y: -306px;
+$icon-top-width: 68px;
+$icon-top-height: 68px;
+$icon-top-total-width: 453px;
+$icon-top-total-height: 439px;
+$icon-top-image: '~sprites/icon.png';
+$icon-top: (209px, 306px, -209px, -306px, 68px, 68px, 453px, 439px, '~sprites/icon.png', 'icon-top', );
+$icon-user-hover-icon-user-hover-name: 'icon-user:hover,.icon-user-hover';
+$icon-user-hover-icon-user-hover-x: 0px;
+$icon-user-hover-icon-user-hover-y: 0px;
+$icon-user-hover-icon-user-hover-offset-x: 0px;
+$icon-user-hover-icon-user-hover-offset-y: 0px;
+$icon-user-hover-icon-user-hover-width: 103px;
+$icon-user-hover-icon-user-hover-height: 102px;
+$icon-user-hover-icon-user-hover-total-width: 453px;
+$icon-user-hover-icon-user-hover-total-height: 439px;
+$icon-user-hover-icon-user-hover-image: '~sprites/icon.png';
+$icon-user-hover-icon-user-hover: (0px, 0px, 0px, 0px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-user:hover,.icon-user-hover', );
+$icon-user-name: 'icon-user';
+$icon-user-x: 206px;
+$icon-user-y: 102px;
+$icon-user-offset-x: -206px;
+$icon-user-offset-y: -102px;
+$icon-user-width: 103px;
+$icon-user-height: 102px;
+$icon-user-total-width: 453px;
+$icon-user-total-height: 439px;
+$icon-user-image: '~sprites/icon.png';
+$icon-user: (206px, 102px, -206px, -102px, 103px, 102px, 453px, 439px, '~sprites/icon.png', 'icon-user', );
+$icon-video-name: 'icon-video';
+$icon-video-x: 434px;
+$icon-video-y: 323px;
+$icon-video-offset-x: -434px;
+$icon-video-offset-y: -323px;
+$icon-video-width: 14px;
+$icon-video-height: 13px;
+$icon-video-total-width: 453px;
+$icon-video-total-height: 439px;
+$icon-video-image: '~sprites/icon.png';
+$icon-video: (434px, 323px, -434px, -323px, 14px, 13px, 453px, 439px, '~sprites/icon.png', 'icon-video', );
+$icon-webcat-hover-icon-webcat-hover-name: 'icon-webcat:hover,.icon-webcat-hover';
+$icon-webcat-hover-icon-webcat-hover-x: 386px;
+$icon-webcat-hover-icon-webcat-hover-y: 195px;
+$icon-webcat-hover-icon-webcat-hover-offset-x: -386px;
+$icon-webcat-hover-icon-webcat-hover-offset-y: -195px;
+$icon-webcat-hover-icon-webcat-hover-width: 64px;
+$icon-webcat-hover-icon-webcat-hover-height: 64px;
+$icon-webcat-hover-icon-webcat-hover-total-width: 453px;
+$icon-webcat-hover-icon-webcat-hover-total-height: 439px;
+$icon-webcat-hover-icon-webcat-hover-image: '~sprites/icon.png';
+$icon-webcat-hover-icon-webcat-hover: (386px, 195px, -386px, -195px, 64px, 64px, 453px, 439px, '~sprites/icon.png', 'icon-webcat:hover,.icon-webcat-hover', );
+$icon-webcat-name: 'icon-webcat';
+$icon-webcat-x: 386px;
+$icon-webcat-y: 259px;
+$icon-webcat-offset-x: -386px;
+$icon-webcat-offset-y: -259px;
+$icon-webcat-width: 64px;
+$icon-webcat-height: 64px;
+$icon-webcat-total-width: 453px;
+$icon-webcat-total-height: 439px;
+$icon-webcat-image: '~sprites/icon.png';
+$icon-webcat: (386px, 259px, -386px, -259px, 64px, 64px, 453px, 439px, '~sprites/icon.png', 'icon-webcat', );
+$icon-weibo-hover-icon-weibo-hover-name: 'icon-weibo:hover,.icon-weibo-hover';
+$icon-weibo-hover-icon-weibo-hover-x: 63px;
+$icon-weibo-hover-icon-weibo-hover-y: 376px;
+$icon-weibo-hover-icon-weibo-hover-offset-x: -63px;
+$icon-weibo-hover-icon-weibo-hover-offset-y: -376px;
+$icon-weibo-hover-icon-weibo-hover-width: 63px;
+$icon-weibo-hover-icon-weibo-hover-height: 63px;
+$icon-weibo-hover-icon-weibo-hover-total-width: 453px;
+$icon-weibo-hover-icon-weibo-hover-total-height: 439px;
+$icon-weibo-hover-icon-weibo-hover-image: '~sprites/icon.png';
+$icon-weibo-hover-icon-weibo-hover: (63px, 376px, -63px, -376px, 63px, 63px, 453px, 439px, '~sprites/icon.png', 'icon-weibo:hover,.icon-weibo-hover', );
+$icon-weibo-name: 'icon-weibo';
+$icon-weibo-x: 0px;
+$icon-weibo-y: 376px;
+$icon-weibo-offset-x: 0px;
+$icon-weibo-offset-y: -376px;
+$icon-weibo-width: 63px;
+$icon-weibo-height: 63px;
+$icon-weibo-total-width: 453px;
+$icon-weibo-total-height: 439px;
+$icon-weibo-image: '~sprites/icon.png';
+$icon-weibo: (0px, 376px, 0px, -376px, 63px, 63px, 453px, 439px, '~sprites/icon.png', 'icon-weibo', );
+$icon-width: 453px;
+$icon-height: 439px;
+$icon-image: '~sprites/icon.png';
+$icon-sprites: ($icon-android, $icon-arrow-left, $icon-arrow-right, $icon-car-hover-icon-car-hover, $icon-car, $icon-complain, $icon-contact-message, $icon-contact-phone, $icon-contact-positioning, $icon-contact-qq, $icon-contact-weibo, $icon-date, $icon-driver-school, $icon-guid-1, $icon-guid-2, $icon-guid-3, $icon-ios, $icon-memo, $icon-message, $icon-mock, $icon-notic, $icon-order, $icon-phone-green-s, $icon-phone, $icon-qq-hover-icon-qq-hover, $icon-qq, $icon-reservation, $icon-student, $icon-top-hover-icon-top-hover, $icon-top, $icon-user-hover-icon-user-hover, $icon-user, $icon-video, $icon-webcat-hover-icon-webcat-hover, $icon-webcat, $icon-weibo-hover-icon-weibo-hover, $icon-weibo, );
+$icon: (453px, 439px, '~sprites/icon.png', $icon-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
